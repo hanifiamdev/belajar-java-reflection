@@ -1,11 +1,15 @@
 package com.hanifiamdev.reflection.data;
 
+import com.hanifiamdev.reflection.data.annotation.NotBlank;
+
 import java.io.Serializable;
 
 public final class Person implements Nameable, Serializable {
 
+    @NotBlank
     private String firstName;
 
+    @NotBlank(allowEmptyString = true)
     private String lastName;
 
     public Person() {
