@@ -2,7 +2,7 @@ package com.hanifiamdev.reflection.data;
 
 import java.io.Serializable;
 
-public class Person implements Nameable, Serializable {
+public final class Person implements Nameable, Serializable {
 
     private String firstName;
 
