@@ -1,6 +1,8 @@
 package com.hanifiamdev.reflection.data;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Nameable, Serializable {
 
     private String firstName;
 
