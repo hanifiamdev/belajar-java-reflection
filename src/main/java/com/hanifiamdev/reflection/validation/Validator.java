@@ -1,6 +1,6 @@
-package com.hanifiamdev.reflection.data.validation;
+package com.hanifiamdev.reflection.validation;
 
-import com.hanifiamdev.reflection.data.annotation.NotBlank;
+import com.hanifiamdev.reflection.annotation.NotBlank;
 
 import java.lang.reflect.Field;
 

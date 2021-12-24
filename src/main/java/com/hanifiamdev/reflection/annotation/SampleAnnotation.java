@@ -1,4 +1,4 @@
-package com.hanifiamdev.reflection.data.annotation;
+package com.hanifiamdev.reflection.annotation;
 
 import java.lang.annotation.*;
 

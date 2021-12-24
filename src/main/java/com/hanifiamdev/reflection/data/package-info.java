@@ -4,4 +4,4 @@
 @SampleAnnotation
 package com.hanifiamdev.reflection.data;
 
-import com.hanifiamdev.reflection.data.annotation.SampleAnnotation;
+import com.hanifiamdev.reflection.annotation.SampleAnnotation;

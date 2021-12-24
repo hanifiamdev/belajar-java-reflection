@@ -1,7 +1,7 @@
 package com.hanifiamdev.reflection;
 
 import com.hanifiamdev.reflection.data.Person;
-import com.hanifiamdev.reflection.data.validation.Validator;
+import com.hanifiamdev.reflection.validation.Validator;
 import org.junit.jupiter.api.Test;
 
 public class AnnotationTest {

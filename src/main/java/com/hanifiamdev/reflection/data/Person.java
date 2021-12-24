@@ -1,8 +1,9 @@
 package com.hanifiamdev.reflection.data;
 
-import com.hanifiamdev.reflection.data.annotation.NotBlank;
+import com.hanifiamdev.reflection.annotation.NotBlank;
 
 import java.io.Serializable;
+import java.util.List;
 
 public final class Person implements Nameable, Serializable {
 
@@ -12,6 +13,8 @@ public final class Person implements Nameable, Serializable {
     @NotBlank(allowEmptyString = true)
     private String lastName;
 
+    private List<String> hobbies;
+
     private int age;
 
     public Person() {
@@ -20,6 +23,14 @@ public final class Person implements Nameable, Serializable {
     public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public List<String> getHobbies() {
+        return hobbies;
+    }
+
+    public void setHobbies(List<String> hobbies) {
+        this.hobbies = hobbies;
     }
 
     public int getAge() {
